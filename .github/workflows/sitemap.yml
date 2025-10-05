@@ -8,6 +8,7 @@ jobs:
     name: Generate a sitemap
     permissions:
       contents: write
+      pull-requests: write
 
     steps:
     - name: Checkout the repo
